@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizing (a+b)^2 with Bootstrap</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #000;
+            font-size: 24px;
+            color: #000;
+            height: 100px;
+        }
+        .a2 {
+            background-color: #ffcccb;
+        }
+        .ab {
+            background-color: #add8e6;
+        }
+        .ab2 {
+            background-color: #add8e6;
+        }
+        .b2 {
+            background-color: #90ee90;
+        }
+        .a3 {
+            background-color: #d41be8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-9 item a2">a²</div>
+            <div class="col-3 item ab">ab</div>
+        </div>
+        <div class="row">
+            <div class="col-6 item ab2">ab</div>
+            <div class="col-6 item b2">b²</div>
+        </div>
+        <div class="row">
+            <div class="col-3 item a3">a²</div>
+            <div class="col-9 item a4">ab</div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

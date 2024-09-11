@@ -17,6 +17,25 @@ body{
   font-family: quicksand, sans-serif;
   overflow-x: hidden;
 }
+.sec1-h1 {
+  font-size: 74px;
+}
+
+.sec1-violet{
+  transform: translateY(10px);
+}
+.carousel{
+  margin-bottom: 50px;
+}
+
+.sec1-ic{
+  width: 240px;
+  height: 25px;
+  border-radius: 25px;
+  background-color: #8A47F6;
+  display: inline-block;
+  transform:translate(270px,-160px) ;
+}
 .carousel-indicators ul {
   background-color: #E1E1E1; 
   height: 35px;
@@ -33,7 +52,7 @@ body{
   background-color: #8A47F6; 
  
 }
-.sec1-col1-h1{
+.sec1-col1-h1, span{
   color: #8A47F6;
   font-family: nexa;
 }
@@ -45,7 +64,7 @@ body{
   z-index: 100;
 }
 .footer .logo img {
-  height: 40px; /* Adjust logo size */
+  height: 40px; 
 }
 .footer .links a {
   color: white;
@@ -72,18 +91,18 @@ body{
 .footer .social-icons .footer-icon:hover {
   color: #FE8C45;
 }
-/* For Webkit browsers (Chrome, Safari) */
+
 ::-webkit-scrollbar {
-  width: 8px; /* Width of the scrollbar */
+  width: 8px; 
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(255, 115, 0); /* Color of the scrollbar thumb */
-  border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+  background: rgb(255, 115, 0);
+  border-radius: 10px; 
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; /* Background color of the scrollbar track */
+  background: #f1f1f1; 
 }
 #page-loader {
   display: none;
@@ -92,8 +111,8 @@ body{
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
-  z-index: 9999; /* Ensure it appears on top */
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 9999; 
 }
 
 .loader-circle {
@@ -105,7 +124,7 @@ body{
   height: 50px;
   border-radius: 50%;
   border: 4px solid #fff;
-  border-top-color: #ff8102; /* Change color as desired */
+  border-top-color: #ff8102; 
   animation: spin 1s linear infinite;
 }
 
@@ -124,6 +143,7 @@ body{
   font-size: 18px;
   font-weight: lighter;
   font-family: "quicksand", sans-serif;
+  height: 417px !important;
 }
 .money{
   font-family: nexa;
@@ -138,7 +158,7 @@ body{
 }
 .btn-custom {
   background-color: #ff6a00 !important;
-  color: #fff;
+  color: #fff !important;
   border: none;
   border-radius: 5px;
 }
@@ -150,12 +170,12 @@ body{
 }
 .row-span {
   display: grid;
-  grid-template-rows: repeat(2, 1fr); /* Two rows */
-  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  grid-template-rows: repeat(2, 1fr); 
+  grid-template-columns: repeat(3, 1fr); 
   gap: 10px;
 }
 .col-span-2 {
-  grid-row: span 2; /* Span two rows */
+  grid-row: span 2; 
 }
 .img-fluid {
   width: 100%;
